@@ -1,0 +1,9 @@
+# Core Machine Learning & Data Science Libraries
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+ipykernel
+openpyxl

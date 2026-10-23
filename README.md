@@ -10,8 +10,8 @@ Make sure you have Python installed.
 ### Setup Environment
 1. Clone this repository:
    ```bash
-   git clone https://github.com/priyakumari831866/machine-learning.git
-   cd machine-learning
+   git clone https://github.com/priyakumari831866/New-Repo.git
+   cd New-Repo
    ```
 
 2. Create and activate a virtual environment:
@@ -35,4 +35,5 @@ Make sure you have Python installed.
 
 ## 📂 Contents
 - `class1.ipynb` - Initial exercises & data analysis
+- `class2.ipynb` - Machine learning algorithms & practice
 - `requirements.txt` - Python package dependencies

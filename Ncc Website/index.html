@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071f3b">
+  <meta name="description" content="Discover NCC events, training and campus life.">
+  <title>NCC | Campus Unit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="NCC Campus Unit home"><span class="brand-mark">N</span><span>NCC <small>CAMPUS UNIT</small></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#events">Events</a>
+      <a href="#gallery">Our gallery</a>
+      <a class="nav-join" href="#join">Join an event <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2200&q=85" alt="A wide open landscape at sunrise">
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> DISCIPLINE · SERVICE · ADVENTURE</p>
+        <h1>Ready to<br>rise to it?</h1>
+        <p class="hero-intro">Make your college years count. Find your next challenge with the NCC campus unit.</p>
+        <a class="button button-red" href="#events">Explore events <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-note"><span>01 / 03</span><span>LEARN · LEAD · SERVE</span></div>
+    </section>
+
+    <section class="events section" id="events">
+      <div class="section-heading">
+        <div><p class="eyebrow dark-eyebrow"><span></span> MAKE YOUR MOVE</p><h2>On the calendar<span>.</span></h2></div>
+        <p class="starter-note">Sample events · Update dates and details before publishing</p>
+      </div>
+      <div class="event-columns">
+        <div class="event-group">
+          <div class="group-title"><h3>Happening now</h3><span class="live-dot">● ACTIVE</span></div>
+          <article class="event-card ongoing">
+            <div class="event-date"><span>EVERY</span><strong>WEEK</strong></div>
+            <div class="event-info"><p class="event-type">TRAINING · CAMPUS PARADE GROUND</p><h4>Drill & leadership practice</h4><p>Build confidence, sharpen your footwork and learn as a team.</p></div>
+            <button class="join-button" data-event="Drill & leadership practice" aria-label="Join Drill and leadership practice">↗</button>
+          </article>
+        </div>
+        <div class="event-group">
+          <div class="group-title"><h3>Coming up</h3><span class="event-count">02 EVENTS</span></div>
+          <article class="event-card">
+            <div class="event-date"><span>OCT</span><strong>14</strong></div>
+            <div class="event-info"><p class="event-type">ORIENTATION · MAIN HALL</p><h4>NCC open day</h4><p>Meet the unit, talk to cadets and see what training is like.</p></div>
+            <button class="join-button" data-event="NCC open day" aria-label="Join NCC open day">↗</button>
+          </article>
+          <article class="event-card">
+            <div class="event-date"><span>OCT</span><strong>24</strong></div>
+            <div class="event-info"><p class="event-type">COMMUNITY · CAMPUS GATES</p><h4>Campus clean-up drive</h4><p>Give a few hours to a cleaner, greener campus.</p></div>
+            <button class="join-button" data-event="Campus clean-up drive" aria-label="Join Campus clean-up drive">↗</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-heading gallery-heading">
+        <div><p class="eyebrow"><span></span> DAYS THAT STAY WITH US</p><h2>Our gallery<span>.</span></h2></div>
+        <p>Small moments. Big memories. A glimpse of life in the unit.</p>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo photo-tall"><img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1000&q=85" alt="Students gathering together outdoors" loading="lazy"><figcaption><span>01</span> Together, we go further</figcaption></figure>
+        <figure class="photo"><img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=85" alt="Volunteers working together at an event" loading="lazy"><figcaption><span>02</span> Service in action</figcaption></figure>
+        <figure class="photo"><img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=900&q=85" alt="Students celebrating together" loading="lazy"><figcaption><span>03</span> A team worth showing up for</figcaption></figure>
+        <figure class="photo photo-wide"><img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1400&q=85" alt="Sunlit mountains and open countryside" loading="lazy"><figcaption><span>04</span> Out there, together</figcaption></figure>
+      </div>
+      <p class="photo-credit">Illustrative photos from Unsplash. Replace with your unit’s own photos when available.</p>
+    </section>
+
+    <section class="join section" id="join">
+      <div class="join-copy"><p class="eyebrow"><span></span> YOUR NEXT STEP</p><h2>Count me<br>in<span>.</span></h2><p>Choose an event and leave your details. This static demo does not send or store your registration.</p></div>
+      <form id="join-form">
+        <label for="cadet-name">Full name</label>
+        <input id="cadet-name" name="name" autocomplete="name" placeholder="Your name" required>
+        <label for="enrollment">NCC enrollment number</label>
+        <input id="enrollment" name="enrollment" autocomplete="off" placeholder="Your enrollment number" required>
+        <label for="event-choice">Choose an event</label>
+        <select id="event-choice" name="event" required>
+          <option value="">Select an event</option>
+          <option>Drill & leadership practice</option>
+          <option>NCC open day</option>
+          <option>Campus clean-up drive</option>
+        </select>
+        <button class="button button-red submit-button" type="submit">Prepare my request <span aria-hidden="true">↗</span></button>
+        <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">N</span><span>NCC <small>CAMPUS UNIT</small></span></a><p>LEARN · LEAD · SERVE</p><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
